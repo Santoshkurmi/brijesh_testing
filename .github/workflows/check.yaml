@@ -1,0 +1,12 @@
+name: testing workflow
+on:
+  push:
+
+jobs:
+  run_python:
+    runs-on: ubuntu-latest
+
+    steps:
+      
+      - name: Installing git and python
+        run: apt update
