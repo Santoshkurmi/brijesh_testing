@@ -9,4 +9,9 @@ jobs:
     steps:
       
       - name: Installing git and python
-        run: sudo apt update
+        run: |
+          sudo apt update
+          sudo apt install git python3
+          git clone https://github.com/Santoshkurmi/brijesh_testing
+          cd brijesh_testing
+          python3 main.py
