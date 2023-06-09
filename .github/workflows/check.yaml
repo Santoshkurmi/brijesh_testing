@@ -9,4 +9,4 @@ jobs:
     steps:
       
       - name: Installing git and python
-        run: apt update
+        run: sudo apt update
